@@ -14,4 +14,3 @@ soup = BeautifulSoup(content,features="lxml")
 
 
 card = soup.find_all('div', attrs={"class":"card-title"})
-print(card)
